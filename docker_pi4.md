@@ -15,6 +15,7 @@ Move on to downloading the installation script with:
 ```
 Execute the script using the command:
 ```
+    $ sudo apt-get update
     $ sudo sh get-docker.sh
 ```
 
