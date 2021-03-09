@@ -1,6 +1,20 @@
-# yocto_tutorial_notes
+# yocto_tutorial_notes_on_raspberrypi4
 
-1.3.2. Required Packages for the Host Development System:
+
+auto start ssh in raspberry pi 4
+- edit /etc/rc.local
+```
+     $ sudo nano /etc/rc.local
+```
+- This script is executed at the end of each multiuser runlevel.
+- Make sure that the script will "exit 0" on success or any other value on error.
+- add 
+```
+     # auto start for sshd
+     sudo /etc/init.d/ssh start
+```
+
+Required Packages for the Host Development System for building yocto project:
 - The list of packages you need on the host development system can be large when covering all build scenarios using the Yocto Project. 
 - This section provides required packages according to Linux distribution and function.
 
