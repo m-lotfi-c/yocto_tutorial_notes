@@ -1,7 +1,23 @@
 # yocto_tutorial_notes_on_raspberrypi4
 https://www.youtube.com/watch?v=gn3XGLdfPfY
 sudo nano /home/ubuntu/.ssh/known_hosts
+# raspberry_pi4_tutorial_notes
 
+Raspberry Pi OS default :
+  user is "pi", 
+  password is "raspberry". 
+  
+You can change usr users and change each user's password.
+
+
+SSH using Linux or Mac OS:
+```bash
+$ ssh pi@<IP>
+```
+
+sudo service ssh restart
+
+You can get there by hitting CTRL+ALT+T from the desktop
 auto start ssh in raspberry pi 4
 - edit /etc/rc.local
 ```
