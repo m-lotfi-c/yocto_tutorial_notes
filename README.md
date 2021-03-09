@@ -1,5 +1,6 @@
 # yocto_tutorial_notes_on_raspberrypi4
 https://www.youtube.com/watch?v=gn3XGLdfPfY
+sudo nano /home/ubuntu/.ssh/known_hosts
 
 auto start ssh in raspberry pi 4
 - edit /etc/rc.local
