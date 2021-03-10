@@ -14,6 +14,19 @@ The following packages have unmet dependencies:
  package1 : Depends: package2 (>= 1.8) but 1.7.5-1ubuntu1 is to be installed
 E: Unable to correct problems, you have held broken packages.
 ```
+Here are some of its features:
+
+search packages in all Launchpad PPAs
+list and download packages in a PPA
+add / remove / purge a PPA
+backup and restore PPA sources
+remove duplicate PPA sources
+To install Y PPA Manager, open terminal by hitting Alt+Ctrl+T and run following commands:
+````
+sudo add-apt-repository ppa:webupd8team/y-ppa-manager
+sudo apt-get update
+sudo apt-get install y-ppa-manager
+```
 How can I resolve this?
 --------------------------------------------------------------------------------------------------------------------------------------
 ## Answer:
