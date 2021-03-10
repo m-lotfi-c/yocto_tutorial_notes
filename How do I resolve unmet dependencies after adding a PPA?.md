@@ -22,6 +22,15 @@ How can I resolve this?
 - For the most part, APT is easy to use for installing, removing, and updating packages. 
 - In rare instances, often when you are mixing in third-party dependencies, 
 - there is a chance that apt-get may end up giving you an error telling you that a package installation could not be completed.
+
+This will show your sources.list:
+```
+cat /etc/apt/sources.list
+```
+This will show the list of PPAs (If any):
+```
+cat /etc/apt/sources.list.d/*
+```
 --------------------------------------------------------------------------------------------------------------------------------------
 # Solutions:
 --------------------------------------------------------------------------------------------------------------------------------------
