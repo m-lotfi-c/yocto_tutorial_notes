@@ -1,5 +1,11 @@
 
+I just hit this after doing a fresh install of DOCKER from the main docs. The problem for me was that immediately after the install, the service is not running.
 
+These commands will help you to make sure docker is up and running for your run command to find it:
+
+$ sudo service --status-all 
+$ sudo service docker start
+$ sudo service docker start
 
 https://phoenixnap.com/kb/docker-on-raspberry-pi
 
