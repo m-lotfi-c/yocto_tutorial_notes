@@ -114,7 +114,7 @@ b. Install a specific version using the version string from the second column,
     $ sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
 ```
 
-- for example, 5:20.10.5~3-0~ubuntu-bionic.
+- for example, 5:20.10.5~3-0~ubuntu-bionic from the list above "i.e. the output of command apt-cache".
 ```
     $ sudo apt-get install docker-ce=5:20.10.5~3-0~ubuntu-bionic docker-ce-cli=5:20.10.5~3-0~ubuntu-bionic containerd.io
 ```
